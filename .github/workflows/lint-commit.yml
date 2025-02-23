@@ -1,8 +1,0 @@
-name: Lint commit message
-
-on:
-  push:
-
-jobs:
-  lint_commit:
-    uses: emaraschio/workflow-templates/.github/workflows/lint-commit.yml@main
