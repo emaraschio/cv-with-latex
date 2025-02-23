@@ -1,9 +1,11 @@
 \documentclass[11pt, a4paper]{awesome-cv}
+
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
 \fontdir[fonts/]
 \colorlet{awesome}{awesome-red}
 \definecolor{graytext}{HTML}{5D5D5D}
-\setbool{acvSectionColorHighlight}{false}
+\setbool{acvSectionColorHighlight}{true}
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 \name{Ezequiel}{Maraschio}
@@ -14,14 +16,22 @@
 \homepage{maraschio.com}
 \github{emaraschio}
 \linkedin{emaraschio}
+
 \quote{``A mind is like a parachute. It doesn't work if it is not open." - Frank Zappa}
 
 \begin{document}
+
 \makecvheader[C]
+
 \makecvfooter
-  {}
+  {\today}
   {Ezequiel Maraschio~~~·~~~CV}
   {\thepage}
+
+
 \input{resume/summary.tex}
 \input{resume/experience.tex}
+\input{resume/education.tex}
+\input{resume/presentation.tex}
+
 \end{document}
