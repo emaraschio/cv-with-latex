@@ -40,3 +40,8 @@ You can customize various aspects of the CV by:
 ## License
 
 This project is licensed under the same terms as Awesome-CV. See the LICENSE file for details.
+
+
+## Run Locally using Docker
+
+`docker run --rm -i -v`pwd`:/data -v`pwd`/fonts:/root/.fonts mingc/latex xelatex emaraschio.tex`
