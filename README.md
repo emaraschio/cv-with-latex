@@ -45,4 +45,7 @@ This project is licensed under the same terms as Awesome-CV. See the LICENSE fil
 ## Run Locally using Docker
 
 The following command will parse the text files and generate the PDF file:
-`docker run --rm -i -v`pwd`:/data -v`pwd`/fonts:/root/.fonts mingc/latex xelatex emaraschio.tex`
+
+```bash
+docker run --rm -i -v`pwd`:/data -v`pwd`/fonts:/root/.fonts mingc/latex xelatex emaraschio.tex
+```
